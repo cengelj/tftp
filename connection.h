@@ -1,13 +1,7 @@
 #ifndef _CONNECTION_H__
 #define _CONNECTION_H__
 
-#ifndef SUBMITTY
-#include "../unpv13e/lib/unp.h"
-#endif
-
-#ifdef SUBMITTY
 #include "unp.h"
-#endif
 
 // Enum for simplifying code checking
 enum opcode { RRQ = 1,
